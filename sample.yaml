@@ -1,0 +1,10 @@
+sample:
+  description: Current Sensor on Modbus TCP with STM32H743ZI
+  name: current_sensor_modbus
+common:
+  tags: Current Sensor for PV Power Plant
+  integration_platforms:
+    - native_posix
+  harness: console
+  harness_config:
+    type: one_line
